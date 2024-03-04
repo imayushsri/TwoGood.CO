@@ -166,7 +166,7 @@ html, body{
     height: 100%;
     width: 100%;
     display: flex;
-    align-items:start;
+    align-items:center;
     justify-content: space-around;
     font-family: Helvetica, sans-serif;
     font-size: 1vw;
@@ -294,6 +294,9 @@ input[type=radio] {
     width: 27%;
     border: none;
 }
+.para{
+    font-size: 1.3vw;
+}
 .impact{
     display: flex;
     justify-content: space-between;
@@ -312,25 +315,16 @@ input[type=radio] {
     line-height: 2vw;
     position: relative;
 }
-.image1{
+.impPara h3{
+    font-size: 2vw;
+}
+.image{
     width: 33%;
     object-fit: cover;
     position: relative;
     overflow: hidden;
 }
-.image1 img{
-    height: 100%;
-    width: 100%;
-    scale: 1.2;
-    object-fit: cover;
-}
-.image2{
-    width: 33%;
-    object-fit: cover;
-    position: relative;
-    overflow: hidden;
-}
-.image2 img{
+.image img{
     height: 100%;
     width: 100%;
     scale: 1.2;
@@ -377,6 +371,12 @@ input[type=radio] {
         height: 10vw;
         position: sticky;
         z-index: 100;
+    }
+    .icons{
+        padding: 1.5vw 0px;
+        padding-left: 8vw;
+        background: #f7f7f7;
+        border-radius: 5vw;
     }
     .nav-part1 svg{
         height: 35vw;
@@ -443,15 +443,101 @@ input[type=radio] {
         scale: 1.1;
     }
     .page2 .elem .dets{
-        height: 4vw;
-        width: 70%;
-        border-radius: 25px;
-        position: absolute;
-        z-index: 9;
-        top: 50%;
-        transition: all 0.5s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        height: 15vw;
+        width: 80%;
+        border-radius: 30px;
+        
+    }
+    .page2 .elem .dets:hover{
+        height: 65vw;
+    }
+    .heading{
+        font-size: 3vw;
+        /* padding-left: 2vw; */
+    }
+    .heading p{
+        margin-left: 9vw;
+             
+    }
+    .detailPara{
+        font-size: 2vw;
+        margin-left: 6vw;
+        margin-right: 3vw;
+    }
+    .page3{
+        min-height: 100vw;
+        width: 100%;
+    }
+    .child{
+        height: 50vw;
+        /* width: 38vw; */
+    }
+    .wishes{
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-size: 2vw;
+        margin-top: 5vw;
+    }
+    input[type=radio] {
+        width: 100%;
+        height: 3vw;
+    }
+    .radioPara{
+        font-size: 3vw;
+        margin-right: 2vw;
+    }
+    .message{
+        font-family:futura;
+        font-size: 5vw;
+        letter-spacing: 0;
+        text-align: center;
+        word-spacing: 0.3vw;
+        line-height: 6vw;
+    }
+    .button{
+        height: 10vw;
+    }
+    .button button{
+        border-radius: 4vw;
+        width: 40%;
+    }
+    .para{
+        font-size: 3vw;
+    }
+    .impact{
+        margin-top: 20vw;
+        object-fit: cover;
+        height: 49vw;
+        position: relative;
+        padding-right: 2vw;
+    }
+    .impPara{
+        padding-right: 1.5vw;
+        padding-left: 1.5vw;
+        line-height: 2vw;
+        font-size: 2vw;
+    }
+    .impPara h3{
+        font-size: 3vw;
+    }
+    .contact{
+        margin-top: 7vw;
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+    .mid svg{
+        height: 30vw;
+    }
+    .terms{
+        font-size: 2vw;
+        margin-top: 5vw;
+    }
+    .foot{
+        margin-top: 10vw;
+        text-align:center;
+        line-height: 3.7vw;
+        font-size: 3vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
     }
 }
